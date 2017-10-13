@@ -1,0 +1,139 @@
+.header .header__block {
+  width: 1170px;
+  margin: 0 auto;
+  margin-top: 90px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  color: #fd8569;
+}
+.header .header__block span {
+  color: #333333;
+}
+.header .header__block p {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7a7a7a;
+}
+.main {
+  display: flex;
+}
+.main .main__grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: stretch;
+  width: 1170px;
+  margin: 0 auto;
+  margin-top: 110px;
+}
+.main .main__grid .element-1 {
+  height: 265px;
+  width: 260px;
+  background-color: #4eb2f7;
+}
+.main .main__grid .element-2 {
+  height: 265px;
+  width: 260px;
+  background-color: #c049f8;
+}
+.main .main__grid .element-3 {
+  height: 265px;
+  width: 260px;
+  background-color: #817eff;
+}
+.main .main__grid .element-4 {
+  height: 265px;
+  width: 260px;
+  background-color: #f74770;
+}
+.main .main__grid .flaticon-magnet,
+.main .main__grid .flaticon-bug,
+.main .main__grid .flaticon-settings,
+.main .main__grid .flaticon-camera-retro {
+  display: block;
+  margin-left: -20px;
+  margin-top: 55px;
+}
+.main .main__grid .element-1 h1 {
+  margin-top: 25px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.main .main__grid .element-2 h1 {
+  margin-top: 25px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.main .main__grid .element-3 h1 {
+  margin-top: 25px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.main .main__grid .element-4 h1 {
+  margin-top: 25px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.main .main__grid .element-1 p {
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Open sans', sans-serif;
+  font-size: 15px;
+  color: white;
+}
+.main .main__grid .element-2 p {
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Open sans', sans-serif;
+  font-size: 15px;
+  color: white;
+}
+.main .main__grid .element-3 p {
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Open sans', sans-serif;
+  font-size: 15px;
+  color: white;
+}
+.main .main__grid .element-4 p {
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Open sans', sans-serif;
+  font-size: 15px;
+  color: white;
+}
+.main .main__grid .grid__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.main .main__grid .button {
+  border-radius: 30px;
+  padding: 15px 70px;
+  border: 1px solid #d4d4d4;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  font-family: 'Open sans', sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.main .main__grid .button:hover {
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.6);
+}
+.main .main__grid .fa-plus-circle {
+  margin-right: 10px;
+}
